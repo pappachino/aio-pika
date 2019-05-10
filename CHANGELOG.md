@@ -1,3 +1,30 @@
+5.5.3
+-----
+
+* Fixed #218. How to properly close RobustConnection?
+
+5.5.2
+-----
+
+* Fixed #216. Exception in Queue.consume callback isn't propagated properly.
+
+5.5.1
+-----
+
+* Allow to specify `requeue=` and `reject_on_redelivered=` in Master pattern #212
+
+
+5.5.0
+-----
+
+* Fixed #209 int values for headers
+
+5.4.1
+-----
+
+* update aiormq version
+* use `AMQPError` instead of `AMQPException`. `AMQPException` is now alias for `AMQPError`
+
 5.4.0
 -----
 
